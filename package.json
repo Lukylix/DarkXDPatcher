@@ -1,0 +1,12 @@
+{
+	"name": "dark-xd-patcher",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "patcher.js",
+	"author": "Lukylix",
+	"license": "GNU",
+	"private": false,
+	"dependencies": {
+		"fast-xml-parser": "^4.2.4"
+	}
+}
