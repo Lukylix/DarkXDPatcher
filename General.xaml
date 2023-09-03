@@ -6256,6 +6256,7 @@
     </Style>
 
     <Style TargetType="MenuFlyoutItem">
+        <Setter Property="MinHeight" Value="32"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="MenuFlyoutItem">
@@ -6400,6 +6401,7 @@
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="UseSystemFocusVisuals" Value="True"/>
+        <Setter Property="MinHeight" Value="32"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="ToggleMenuFlyoutItem">
@@ -6473,13 +6475,10 @@
                             </VisualStateGroup>
                             <VisualStateGroup x:Name="PaddingSizeStates">
                                 <VisualState x:Name="DefaultPadding"/>
-                                <VisualState x:Name="NarrowPadding">
-                                    <Storyboard>
-                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="LayoutRoot" Storyboard.TargetProperty="Padding">
-                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TitleMenuToggleFlyoutItemPadding}"/>
-                                        </ObjectAnimationUsingKeyFrames>
-                                    </Storyboard>
-                                </VisualState>
+                                <!--Removing the animation for Narrow Padding because it causes alignment issues between Mouse and Touch pointers
+                                Use the default MenuFlyoutItem template if you need to regenerate the animation.
+                                Addresses JIRA Issue: https://jira.corp.adobe.com/browse/XD-162776-->
+                                <VisualState x:Name="NarrowPadding"/>
                             </VisualStateGroup>
                             <VisualStateGroup x:Name="KeyboardAcceleratorTextVisibility">
                                 <VisualState x:Name="KeyboardAcceleratorTextCollapsed"/>
@@ -6496,16 +6495,23 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
-                            <Grid Grid.Column="0" Width="24" Margin="1.5,0,4.5,0" Padding="0,0,5,0">
-                                <FontIcon x:Name="CheckGlyph" FontFamily="{ThemeResource SymbolThemeFontFamily}"
-                                          Foreground="{ThemeResource ToggleMenuFlyoutItemCheckGlyphForeground}"
-                                          FontSize="16" Glyph="&#xE001;" Opacity="0" HorizontalAlignment="Center"/>
-                            </Grid>
-                            <Viewbox x:Name="IconRoot" Grid.Column="1" HorizontalAlignment="Left" Height="16" VerticalAlignment="Center" Visibility="Collapsed" Width="10">
+                            <FontIcon Grid.Column="0" x:Name="CheckGlyph" FontFamily="{ThemeResource SymbolThemeFontFamily}"
+                                        Foreground="{ThemeResource ToggleMenuFlyoutItemCheckGlyphForeground}"
+                                        FontSize="16" Glyph="&#xE001;" Opacity="0" HorizontalAlignment="Center"
+                                        Margin="1.5,0,4.5,0"/>
+                            <Viewbox x:Name="IconRoot" Grid.Column="1" HorizontalAlignment="Left" Height="16" VerticalAlignment="Center" Visibility="Collapsed">
                                 <ContentPresenter x:Name="IconContent" Content="{TemplateBinding Icon}"/>
                             </Viewbox>
-                            <TextBlock x:Name="TextBlock" Grid.Column="1" Foreground="{TemplateBinding Foreground}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Text="{TemplateBinding Text}" TextTrimming="Clip" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
-                            <TextBlock x:Name="KeyboardAcceleratorTextBlock" AutomationProperties.AccessibilityView="Raw" Grid.Column="2" Foreground="{ThemeResource ToggleMenuFlyoutItemKeyboardAcceleratorTextForeground}" HorizontalAlignment="Right" contract6Present:MinWidth="{Binding TemplateSettings.KeyboardAcceleratorTextMinWidth, RelativeSource={RelativeSource Mode=TemplatedParent}}" Margin="24,0,0,0" Style="{ThemeResource CaptionTextBlockStyle}" contract6Present:Text="{TemplateBinding KeyboardAcceleratorTextOverride}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Visibility="Collapsed"/>
+                            <TextBlock x:Name="TextBlock" Grid.Column="1" Foreground="{TemplateBinding Foreground}"
+                                       HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                       Text="{TemplateBinding Text}" TextTrimming="Clip"
+                                       Margin="3,0,9,0"
+                                       VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            <TextBlock x:Name="KeyboardAcceleratorTextBlock" AutomationProperties.AccessibilityView="Raw"
+                                       contract6Present:Text="{TemplateBinding KeyboardAcceleratorTextOverride}" Grid.Column="2"
+                                       FontSize="{StaticResource SpDropdownFontSize}" Style="{ThemeResource CaptionTextBlockStyle}"
+                                       HorizontalAlignment="Right" Margin="24,0,9,0" Foreground="{ThemeResource ToggleMenuFlyoutItemKeyboardAcceleratorTextForeground}"
+                                       Height="16" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Visibility="Collapsed"/>
                         </Grid>
                     </Grid>
                 </ControlTemplate>

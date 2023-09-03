@@ -5,35 +5,35 @@
       <Color x:Key="Grey1">#2A2A2A</Color>
       <Color x:Key="Grey2">#2E2E2E</Color>
       <Color x:Key="Grey3">#323232</Color>
-      <Color x:Key="Grey4">#ff6b6b6b</Color>
-      <Color x:Key="Grey5">#ff707070</Color>
-      <Color x:Key="Grey6">#ff848484</Color>
-      <Color x:Key="Grey7">#ffa2a2a2</Color>
-      <Color x:Key="Grey8">#ffcbcbcb</Color>
+      <Color x:Key="Grey4">#393939</Color>
+      <Color x:Key="Grey5">#3E3E3E</Color>
+      <Color x:Key="Grey6">#525252</Color>
+      <Color x:Key="Grey7">#707070</Color>
+      <Color x:Key="Grey8">#999999</Color>
       <Color x:Key="Grey9">#CDCDCD</Color>
       <Color x:Key="Grey10">#FCFCFC</Color>
-      <Color x:Key="LabelColor">#ffc0c0c0</Color>
-      <Color x:Key="ForegroundColor">#ffc0c0c0</Color>
-      <Color x:Key="TextControlForeground">#ffc0c0c0</Color>
-      <Color x:Key="TextControlForegroundPointerOver">#ffc0c0c0</Color>
-      <Color x:Key="TextControlForegroundFocused">#ffc0c0c0</Color>
-      <Color x:Key="PlaceholderForegroundColor">#66717171</Color>
+      <Color x:Key="LabelColor">#FF8E8E8E</Color>
+      <Color x:Key="ForegroundColor">#FF8E8E8E</Color>
+      <Color x:Key="TextControlForeground">#FF8E8E8E</Color>
+      <Color x:Key="TextControlForegroundPointerOver">#FF8E8E8E</Color>
+      <Color x:Key="TextControlForegroundFocused">#FF8E8E8E</Color>
+      <Color x:Key="PlaceholderForegroundColor">#663F3F3F</Color>
       <Color x:Key="BorderColor">#ff393939</Color>
-      <Color x:Key="SecondaryForegroundColor">#ff717171</Color>
-      <Color x:Key="SecondaryForegroundColor60">#ff717171</Color>
-      <Color x:Key="SystemAccentColor">#ff717171</Color>
+      <Color x:Key="SecondaryForegroundColor">#FF3F3F3F</Color>
+      <Color x:Key="SecondaryForegroundColor60">#FF3F3F3F</Color>
+      <Color x:Key="SystemAccentColor">#FF3F3F3F</Color>
       <Color x:Key="TextSelectionHighlightColor">#1592E6</Color>
       <Color x:Key="ToolNormalColor">#FFF9F9F9</Color>
       <Color x:Key="ToolCheckedColor">#FF177DDE</Color>
-      <Color x:Key="ToolDisabledColor">#88858585</Color>
+      <Color x:Key="ToolDisabledColor">#88535353</Color>
       <x:Double x:Key="ControlDisabledOpacity">0.35</x:Double>
-      <Color x:Key="ControlNormalFillColor">#ff989898</Color>
+      <Color x:Key="ControlNormalFillColor">#FF666666</Color>
       <Color x:Key="ControlDisabledFillColor">#ff404040</Color>
       <Color x:Key="ApplicationBackgroundColor">#FF2A2A2A</Color>
       <Color x:Key="PanelBackgroundColor">#FF323232</Color>
       <Color x:Key="DialogBackgroundColor">#FF2A2A2A</Color>
-      <Color x:Key="UiTextColour">#ffc0c0c0</Color>
-      <Color x:Key="UiTextColourLight">#ffc0c0c0</Color>
+      <Color x:Key="UiTextColour">#8E8E8E</Color>
+      <Color x:Key="UiTextColourLight">#8E8E8E</Color>
       <Color x:Key="UiChromeColour">#ff404040</Color>
       <Color x:Key="SelectedBorder">#FF008DE9</Color>
       <Color x:Key="HoverBorder">#ff4c4c4c</Color>
@@ -42,27 +42,27 @@
       <Color x:Key="BtnLightByBackground">#ff1e1e1e</Color>
       <Color x:Key="BtnDarkByBackground">#ff333333</Color>
       <Color x:Key="BtnSelectedForeground">#FFFF0000</Color>
-      <Color x:Key="BtnPrimaryForegroundColor">#ff989898</Color>
-      <Color x:Key="BtnSecondaryForegroundColor">#ff989898</Color>
-      <Color x:Key="EyeDropperCursorStroke">#ffadadad</Color>
-      <Color x:Key="ColorButtonIndeterminateDashColor">#ff292929</Color>
+      <Color x:Key="BtnPrimaryForegroundColor">#666666</Color>
+      <Color x:Key="BtnSecondaryForegroundColor">#666666</Color>
+      <Color x:Key="EyeDropperCursorStroke">#7B7B7B</Color>
+      <Color x:Key="ColorButtonIndeterminateDashColor">#C2C2C2</Color>
       <SolidColorBrush x:Key="IndeterminateBorderBrush" Color="#000" Opacity="0.16"></SolidColorBrush>
       <Color x:Key="DropdownBorderColor">#ff404040</Color>
       <Color x:Key="DropdownSeparatorColor">#ff404040</Color>
       <Color x:Key="DropdownFillColor">#ff232323</Color>
       <Color x:Key="DropdownPopupFillColor">#ff232323</Color>
       <Color x:Key="DropdownPopupHoverColor">#FAFAFA</Color>
-      <Color x:Key="DropdownTextColor">#ff717171</Color>
+      <Color x:Key="DropdownTextColor">#3F3F3F</Color>
       <Color x:Key="DropdownSelectedFillColor">#1592E6</Color>
       <Color x:Key="DropdownSelectedHoverColor">#1592E6</Color>
       <Color x:Key="DropdownSelectedTextColor">#FFFFFF</Color>
-      <Color x:Key="DropdownDisabledColor">#ffc0c0c0</Color>
+      <Color x:Key="DropdownDisabledColor">#8E8E8E</Color>
       <x:Double x:Key="DropdownDisabledImageOpacity">0.7</x:Double>
-      <Color x:Key="InteractionBorderColor">#ff292929</Color>
+      <Color x:Key="InteractionBorderColor">#FFC2C2C2</Color>
       <Color x:Key="InteractionBackgroundColor">#ff1e1e1e</Color>
       <Color x:Key="AppMenuListItemOverColor">#2A2A2A</Color>
       <Color x:Key="ArtboardListHoverColor">#EEEEEE</Color>
-      <Color x:Key="TooltipBackgroundColor">#ff717171</Color>
+      <Color x:Key="TooltipBackgroundColor">#3F3F3F</Color>
       <Color x:Key="DropAreaBackgroundColor">#1592E6</Color>
       <Color x:Key="HighlightedButtonColor">#009D00</Color>
       <Color x:Key="CircularProgressBarColor">#09A4EB</Color>
@@ -76,35 +76,35 @@
       <Color x:Key="Grey1">#2A2A2A</Color>
       <Color x:Key="Grey2">#2E2E2E</Color>
       <Color x:Key="Grey3">#323232</Color>
-      <Color x:Key="Grey4">#ff6b6b6b</Color>
-      <Color x:Key="Grey5">#ff707070</Color>
-      <Color x:Key="Grey6">#ff848484</Color>
-      <Color x:Key="Grey7">#ffa2a2a2</Color>
-      <Color x:Key="Grey8">#ffcbcbcb</Color>
+      <Color x:Key="Grey4">#393939</Color>
+      <Color x:Key="Grey5">#3E3E3E</Color>
+      <Color x:Key="Grey6">#525252</Color>
+      <Color x:Key="Grey7">#707070</Color>
+      <Color x:Key="Grey8">#999999</Color>
       <Color x:Key="Grey9">#CDCDCD</Color>
       <Color x:Key="Grey10">#FCFCFC</Color>
-      <Color x:Key="LabelColor">#ffc0c0c0</Color>
-      <Color x:Key="ForegroundColor">#ffc0c0c0</Color>
-      <Color x:Key="TextControlForeground">#ffc0c0c0</Color>
-      <Color x:Key="TextControlForegroundPointerOver">#ffc0c0c0</Color>
-      <Color x:Key="TextControlForegroundFocused">#ffc0c0c0</Color>
-      <Color x:Key="PlaceholderForegroundColor">#66717171</Color>
+      <Color x:Key="LabelColor">#FF8E8E8E</Color>
+      <Color x:Key="ForegroundColor">#FF8E8E8E</Color>
+      <Color x:Key="TextControlForeground">#FF8E8E8E</Color>
+      <Color x:Key="TextControlForegroundPointerOver">#FF8E8E8E</Color>
+      <Color x:Key="TextControlForegroundFocused">#FF8E8E8E</Color>
+      <Color x:Key="PlaceholderForegroundColor">#663F3F3F</Color>
       <Color x:Key="BorderColor">#ff393939</Color>
-      <Color x:Key="SecondaryForegroundColor">#ff717171</Color>
-      <Color x:Key="SecondaryForegroundColor60">#ff717171</Color>
-      <Color x:Key="SystemAccentColor">#ff717171</Color>
+      <Color x:Key="SecondaryForegroundColor">#FF3F3F3F</Color>
+      <Color x:Key="SecondaryForegroundColor60">#FF3F3F3F</Color>
+      <Color x:Key="SystemAccentColor">#FF3F3F3F</Color>
       <Color x:Key="TextSelectionHighlightColor">#1592E6</Color>
       <Color x:Key="ToolNormalColor">#FFF9F9F9</Color>
       <Color x:Key="ToolCheckedColor">#FF177DDE</Color>
-      <Color x:Key="ToolDisabledColor">#88858585</Color>
+      <Color x:Key="ToolDisabledColor">#88535353</Color>
       <x:Double x:Key="ControlDisabledOpacity">0.35</x:Double>
-      <Color x:Key="ControlNormalFillColor">#ff989898</Color>
+      <Color x:Key="ControlNormalFillColor">#FF666666</Color>
       <Color x:Key="ControlDisabledFillColor">#ff404040</Color>
       <Color x:Key="ApplicationBackgroundColor">#FF2A2A2A</Color>
       <Color x:Key="PanelBackgroundColor">#FF323232</Color>
       <Color x:Key="DialogBackgroundColor">#FF2A2A2A</Color>
-      <Color x:Key="UiTextColour">#ffc0c0c0</Color>
-      <Color x:Key="UiTextColourLight">#ffc0c0c0</Color>
+      <Color x:Key="UiTextColour">#8E8E8E</Color>
+      <Color x:Key="UiTextColourLight">#8E8E8E</Color>
       <Color x:Key="UiChromeColour">#ff404040</Color>
       <Color x:Key="SelectedBorder">#FF008DE9</Color>
       <Color x:Key="HoverBorder">#ff4c4c4c</Color>
@@ -113,26 +113,26 @@
       <Color x:Key="BtnLightByBackground">#ff1e1e1e</Color>
       <Color x:Key="BtnDarkByBackground">#ff333333</Color>
       <Color x:Key="BtnSelectedForeground">#FFFF0000</Color>
-      <Color x:Key="BtnPrimaryForegroundColor">#ff989898</Color>
-      <Color x:Key="BtnSecondaryForegroundColor">#ff989898</Color>
-      <Color x:Key="EyeDropperCursorStroke">#ffadadad</Color>
-      <Color x:Key="ColorButtonIndeterminateDashColor">#ff292929</Color>
+      <Color x:Key="BtnPrimaryForegroundColor">#666666</Color>
+      <Color x:Key="BtnSecondaryForegroundColor">#666666</Color>
+      <Color x:Key="EyeDropperCursorStroke">#7B7B7B</Color>
+      <Color x:Key="ColorButtonIndeterminateDashColor">#C2C2C2</Color>
       <Color x:Key="DropdownBorderColor">#ff404040</Color>
       <Color x:Key="DropdownSeparatorColor">#ff404040</Color>
       <Color x:Key="DropdownFillColor">#ff232323</Color>
       <Color x:Key="DropdownPopupFillColor">#ff232323</Color>
       <Color x:Key="DropdownPopupHoverColor">#FAFAFA</Color>
-      <Color x:Key="DropdownTextColor">#ff717171</Color>
+      <Color x:Key="DropdownTextColor">#3F3F3F</Color>
       <Color x:Key="DropdownSelectedFillColor">#1592E6</Color>
       <Color x:Key="DropdownSelectedHoverColor">#1592E6</Color>
       <Color x:Key="DropdownSelectedTextColor">#FFFFFF</Color>
-      <Color x:Key="DropdownDisabledColor">#ffc0c0c0</Color>
+      <Color x:Key="DropdownDisabledColor">#8E8E8E</Color>
       <x:Double x:Key="DropdownDisabledImageOpacity">0.7</x:Double>
-      <Color x:Key="InteractionBorderColor">#ff292929</Color>
+      <Color x:Key="InteractionBorderColor">#FFC2C2C2</Color>
       <Color x:Key="InteractionBackgroundColor">#ff1e1e1e</Color>
       <Color x:Key="ArtboardListHoverColor">#EEEEEE</Color>
       <Color x:Key="AppMenuListItemOverColor">#2A2A2A</Color>
-      <Color x:Key="TooltipBackgroundColor">#ff717171</Color>
+      <Color x:Key="TooltipBackgroundColor">#3F3F3F</Color>
       <Color x:Key="DropAreaBackgroundColor">#1592E6</Color>
       <Color x:Key="HighlightedButtonColor">#009D00</Color>
       <Color x:Key="CircularProgressBarColor">#09A4EB</Color>
@@ -180,14 +180,14 @@
   <Color x:Key="SpectrumGreen1">#0F996D</Color>
   <Color x:Key="SpectrumRed1">#E44853</Color>
   <Color x:Key="SpectrumBlue2">#1473E6</Color>
-  <Color x:Key="SpectrumGray1">#ffa2a2a2</Color>
+  <Color x:Key="SpectrumGray1">#707070</Color>
   <Color x:Key="StaticWhite">#FFFFFF</Color>
   <Color x:Key="StaticBlue500">#2680EB</Color>
   <Color x:Key="StaticBlue600">#1473E6</Color>
   <Color x:Key="StaticBlue700">#0D66D0</Color>
   <Color x:Key="Gray200">#EAEAEA</Color>
   <Color x:Key="Gray300">#E1E1E1</Color>
-  <Color x:Key="Gray500">#ffe5e5e5</Color>
+  <Color x:Key="Gray500">#B3B3B3</Color>
   <Color x:Key="Gray900">#323232</Color>
   <SolidColorBrush x:Key="TextBoxLabelColorBrush" Color="{ThemeResource LabelColor}"></SolidColorBrush>
   <x:Double x:Key="TextBoxLabelFontSize">10</x:Double>
@@ -249,8 +249,8 @@
   <SolidColorBrush x:Key="SpDropdownFocusBorderBrush" Color="{StaticResource DropdownFocusBorderColor}"></SolidColorBrush>
   <SolidColorBrush x:Key="SpDropdownUnfocusBorderBrush" Color="{StaticResource SpDropdownUnfocusedBorderColor}"></SolidColorBrush>
   <Color x:Key="SpCheckboxFocusColor">#1592E6</Color>
-  <Color x:Key="SpCheckBoxNonInteracting">#ff989898</Color>
-  <Color x:Key="SpCheckBoxInteracting">#ff717171</Color>
+  <Color x:Key="SpCheckBoxNonInteracting">#666666</Color>
+  <Color x:Key="SpCheckBoxInteracting">#3F3F3F</Color>
   <x:Double x:Key="SpCheckBoxBorderThemeThickness">2</x:Double>
   <x:Double x:Key="SpCheckBoxBorderRadius">2</x:Double>
   <SolidColorBrush x:Key="SpCheckBoxNonInteractiveBrush" Color="{StaticResource SpCheckBoxNonInteracting}"></SolidColorBrush>
@@ -304,7 +304,7 @@
     <Setter Property="Fill" Value="{ThemeResource SpDropdownSeparatorBrush}"></Setter>
   </Style>
   <Color x:Key="SpRadioFocusColor">#1592E6</Color>
-  <Color x:Key="SpRadioForegroundColor">#ff989898</Color>
+  <Color x:Key="SpRadioForegroundColor">#666666</Color>
   <Color x:Key="SpRadioBackgroundColor">White</Color>
   <x:Double x:Key="SpRadioButtonEllipsSize">16</x:Double>
   <x:Double x:Key="SpRadioButtonEllipsBorderSize">2</x:Double>
@@ -314,13 +314,13 @@
   <Color x:Key="SpDialogButtonFocusColor">#1592E6</Color>
   <Color x:Key="SpDialogButtonQuietPrimaryHoverColor">#EAEAEA</Color>
   <Color x:Key="SpDialogButtonQuietPrimaryPressedColor">#ff3c3c3c</Color>
-  <Color x:Key="SpDialogButtonQuietPrimaryTextColor">#ff7d7d7d</Color>
+  <Color x:Key="SpDialogButtonQuietPrimaryTextColor">#4B4B4B</Color>
   <Color x:Key="SpDialogButtonQuietPrimaryPressedTextColor">#2C2C2C</Color>
   <Color x:Key="SpDialogButtonQuietSecondaryHoverColor">#EAEAEA</Color>
   <Color x:Key="SpDialogButtonQuietSecondaryPressedColor">#ff3c3c3c</Color>
-  <Color x:Key="SpDialogButtonQuietSecondaryTextColor">#ffa2a2a2</Color>
-  <Color x:Key="SpDialogButtonQuietSecondaryPressedTextColor">#ff7d7d7d</Color>
-  <Color x:Key="SpDialogButtonQuietDisabledTextColor">#fff4f4f4</Color>
+  <Color x:Key="SpDialogButtonQuietSecondaryTextColor">#707070</Color>
+  <Color x:Key="SpDialogButtonQuietSecondaryPressedTextColor">#4B4B4B</Color>
+  <Color x:Key="SpDialogButtonQuietDisabledTextColor">#C2C2C2</Color>
   <Color x:Key="SpDialogButtonQuietWarningHoverColor">#EAEAEA</Color>
   <Color x:Key="SpDialogButtonQuietWarningPressedColor">#ff3c3c3c</Color>
   <Color x:Key="SpDialogButtonQuietWarningTextColor">#CB2030</Color>
@@ -347,15 +347,15 @@
   <SolidColorBrush x:Key="SpDialogButtonQuietWarningDisabledBrush" Color="Transparent"></SolidColorBrush>
   <SolidColorBrush x:Key="SpDialogButtonQuietWarningDisabledTextBrush" Color="{ThemeResource SpDialogButtonQuietDisabledTextColor}"></SolidColorBrush>
   <SolidColorBrush x:Key="SpDialogButtonFocusBrush" Color="{ThemeResource SpDialogButtonFocusColor}"></SolidColorBrush>
-  <Color x:Key="SpDialogButtonPrimaryHoverColor">#ff7d7d7d</Color>
+  <Color x:Key="SpDialogButtonPrimaryHoverColor">#4B4B4B</Color>
   <Color x:Key="SpDialogButtonPrimaryPressedColor">#2C2C2C</Color>
-  <Color x:Key="SpDialogButtonPrimaryTextColor">#ff7d7d7d</Color>
+  <Color x:Key="SpDialogButtonPrimaryTextColor">#4B4B4B</Color>
   <Color x:Key="SpDialogButtonPrimaryPressedTextColor">#FFFFFF</Color>
-  <Color x:Key="SpDialogButtonSecondaryHoverColor">#ffcbcbcb</Color>
-  <Color x:Key="SpDialogButtonSecondaryPressedColor">#ffa2a2a2</Color>
-  <Color x:Key="SpDialogButtonSecondaryTextColor">#ffa2a2a2</Color>
+  <Color x:Key="SpDialogButtonSecondaryHoverColor">#999999</Color>
+  <Color x:Key="SpDialogButtonSecondaryPressedColor">#707070</Color>
+  <Color x:Key="SpDialogButtonSecondaryTextColor">#707070</Color>
   <Color x:Key="SpDialogButtonSecondaryPressedTextColor">#FFFFFF</Color>
-  <Color x:Key="SpDialogButtonDisabledTextColor">#fff4f4f4</Color>
+  <Color x:Key="SpDialogButtonDisabledTextColor">#C2C2C2</Color>
   <Color x:Key="SpDialogButtonDisabledColor">#ff333333</Color>
   <Color x:Key="SpDialogButtonWarningHoverColor">#CB2030</Color>
   <Color x:Key="SpDialogButtonWarningPressedColor">#BB0F22</Color>
@@ -399,15 +399,15 @@
   <FontWeight x:Key="SpSpectrumActionButtonFontWeight">Normal</FontWeight>
   <FontFamily x:Key="SpSpectrumActionButtonFontFace">Segoe UI</FontFamily>
   <x:Double x:Key="SpSpectrumActionButtonFontSize">12</x:Double>
-  <Color x:Key="SpSpectrumActionButtonTextColor">#ff6c6c6c</Color>
+  <Color x:Key="SpSpectrumActionButtonTextColor">#3A3A3A</Color>
   <Color x:Key="SpSpectrumActionButtonPressedTextColor">#212121</Color>
-  <Color x:Key="SpSpectrumActionButtonDisabledTextColor">#ffd6d6d6</Color>
+  <Color x:Key="SpSpectrumActionButtonDisabledTextColor">#A4A4A4</Color>
   <Color x:Key="SpSpectrumActionButtonBackgroundColor">#ff242424</Color>
   <Color x:Key="SpSpectrumActionButtonHoverBackgroundColor">#ff1e1e1e</Color>
   <Color x:Key="SpSpectrumActionButtonPressedBackgroundColor">#ff383838</Color>
   <Color x:Key="SpSpectrumActionButtonDisabledBackgroundColor">#ff383838</Color>
   <Color x:Key="SpSpectrumActionButtonBorderColor">#ff434343</Color>
-  <Color x:Key="SpSpectrumActionButtonPressedBorderColor">#ff2d2d2d</Color>
+  <Color x:Key="SpSpectrumActionButtonPressedBorderColor">#BEBEBE</Color>
   <SolidColorBrush x:Key="SpSpectrumActionButtonTextBrush" Color="{ThemeResource SpSpectrumActionButtonTextColor}"></SolidColorBrush>
   <SolidColorBrush x:Key="SpSpectrumActionButtonHoverTextBrush" Color="{ThemeResource SpSpectrumActionButtonPressedTextColor}"></SolidColorBrush>
   <SolidColorBrush x:Key="SpSpectrumActionButtonPressedTextBrush" Color="{ThemeResource SpSpectrumActionButtonPressedTextColor}"></SolidColorBrush>
@@ -492,8 +492,8 @@
     </Setter>
   </Style>
   <Color x:Key="SpSharingRoundedButtonDisabledBackgroundColor">#ff292929</Color>
-  <Color x:Key="SpSharingRoundedButtonDisabledTextColor">#ffeeeeee</Color>
-  <Color x:Key="SpSharingRegularButtonDisabledTextColor">#ffe5e5e5</Color>
+  <Color x:Key="SpSharingRoundedButtonDisabledTextColor">#FFBCBCBC</Color>
+  <Color x:Key="SpSharingRegularButtonDisabledTextColor">#FFB3B3B3</Color>
   <SolidColorBrush x:Key="SpBlueButtonPrimaryHoverBrush" Color="{ThemeResource StaticBlue600}"></SolidColorBrush>
   <SolidColorBrush x:Key="SpBlueButtonPrimaryBackgroundBrush" Color="{ThemeResource StaticBlue500}"></SolidColorBrush>
   <SolidColorBrush x:Key="SpBlueButtonPressedBackgroundBrush" Color="{ThemeResource StaticBlue700}"></SolidColorBrush>
@@ -626,8 +626,8 @@
   <Color x:Key="ProgressBarForegroundColor">#1592E6</Color>
   <SolidColorBrush x:Key="ProgressBarForegroundBrush" Color="{StaticResource ProgressBarForegroundColor}"></SolidColorBrush>
   <Color x:Key="MenuFlyoutBackgroundColor">#323232</Color>
-  <Color x:Key="MenuItemNameDisabledForegroundColor">#ff929292</Color>
-  <Color x:Key="MenuItemShortcutDisabledForegroundColor">#ff929292</Color>
+  <Color x:Key="MenuItemNameDisabledForegroundColor">#FF606060</Color>
+  <Color x:Key="MenuItemShortcutDisabledForegroundColor">#FF606060</Color>
   <Color x:Key="MenuItemPointerOverBackgroundColor">#2A2A2A</Color>
   <Color x:Key="MenuItemHighlightAltBaseHighBrush">#ff4c4c4c</Color>
   <Color x:Key="MenuSubItemChevronForegroundColor">#FFD1D1D1</Color>
@@ -648,7 +648,7 @@
   <Thickness x:Key="TitleMenuFlyoutSeparatorPadding">0</Thickness>
   <Thickness x:Key="TitleMenuFlyoutSubItemGlyphMargin">24,2,0,0</Thickness>
   <Thickness x:Key="TitleMenuToggleFlyoutItemPadding">3,4,11,7</Thickness>
-  <Color x:Key="SpScrollbarForegroundColor">#ffc0c0c0</Color>
+  <Color x:Key="SpScrollbarForegroundColor">#8E8E8E</Color>
   <SolidColorBrush x:Key="SpScrollbarForegroundBrush" Color="{StaticResource SpScrollbarForegroundColor}"></SolidColorBrush>
   <x:Double x:Key="SpScrollbarRadius">2</x:Double>
   <CornerRadius x:Key="SpScrollbarTouchThumbRadius">2</CornerRadius>
@@ -719,7 +719,7 @@
   <Style x:Key="StrokesPaneContainerStyle" TargetType="StackPanel" BasedOn="{StaticResource PaneContainerStyle}"></Style>
   <Style x:Key="ResizeConstraintsPaneStyle" TargetType="StackPanel" BasedOn="{StaticResource PaneContainerStyle}"></Style>
   <Style x:Key="PaddingPaneStyle" TargetType="StackPanel" BasedOn="{StaticResource PaneContainerStyle}"></Style>
-  <Color x:Key="SpColorLayerItemText">#ff717171</Color>
+  <Color x:Key="SpColorLayerItemText">#3F3F3F</Color>
   <Color x:Key="SpColorLayerRowInEditContext">#FFFFFF</Color>
   <SolidColorBrush x:Key="SpBrushLayerRowHiglightHovered" Color="#EAF7FF"></SolidColorBrush>
   <SolidColorBrush x:Key="SpBrushLayerRowHiglightPressed" Color="#EAF7FF"></SolidColorBrush>
@@ -4810,6 +4810,7 @@
     </Setter>
   </Style>
   <Style TargetType="MenuFlyoutItem">
+    <Setter Property="MinHeight" Value="32"></Setter>
     <Setter Property="Template">
       <Setter.Value>
         <ControlTemplate TargetType="MenuFlyoutItem">
@@ -4932,6 +4933,7 @@
     <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
     <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
     <Setter Property="UseSystemFocusVisuals" Value="True"></Setter>
+    <Setter Property="MinHeight" Value="32"></Setter>
     <Setter Property="Template">
       <Setter.Value>
         <ControlTemplate TargetType="ToggleMenuFlyoutItem">
@@ -5005,13 +5007,7 @@
               </VisualStateGroup>
               <VisualStateGroup x:Name="PaddingSizeStates">
                 <VisualState x:Name="DefaultPadding"></VisualState>
-                <VisualState x:Name="NarrowPadding">
-                  <Storyboard>
-                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="LayoutRoot" Storyboard.TargetProperty="Padding">
-                      <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TitleMenuToggleFlyoutItemPadding}"></DiscreteObjectKeyFrame>
-                    </ObjectAnimationUsingKeyFrames>
-                  </Storyboard>
-                </VisualState>
+                <VisualState x:Name="NarrowPadding"></VisualState>
               </VisualStateGroup>
               <VisualStateGroup x:Name="KeyboardAcceleratorTextVisibility">
                 <VisualState x:Name="KeyboardAcceleratorTextCollapsed"></VisualState>
@@ -5028,14 +5024,12 @@
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
               </Grid.ColumnDefinitions>
-              <Grid Grid.Column="0" Width="24" Margin="1.5,0,4.5,0" Padding="0,0,5,0">
-                <FontIcon x:Name="CheckGlyph" FontFamily="{ThemeResource SymbolThemeFontFamily}" Foreground="{ThemeResource ToggleMenuFlyoutItemCheckGlyphForeground}" FontSize="16" Glyph="&amp;#xE001;" Opacity="0" HorizontalAlignment="Center"></FontIcon>
-              </Grid>
-              <Viewbox x:Name="IconRoot" Grid.Column="1" HorizontalAlignment="Left" Height="16" VerticalAlignment="Center" Visibility="Collapsed" Width="10">
+              <FontIcon Grid.Column="0" x:Name="CheckGlyph" FontFamily="{ThemeResource SymbolThemeFontFamily}" Foreground="{ThemeResource ToggleMenuFlyoutItemCheckGlyphForeground}" FontSize="16" Glyph="&amp;#xE001;" Opacity="0" HorizontalAlignment="Center" Margin="1.5,0,4.5,0"></FontIcon>
+              <Viewbox x:Name="IconRoot" Grid.Column="1" HorizontalAlignment="Left" Height="16" VerticalAlignment="Center" Visibility="Collapsed">
                 <ContentPresenter x:Name="IconContent" Content="{TemplateBinding Icon}"></ContentPresenter>
               </Viewbox>
-              <TextBlock x:Name="TextBlock" Grid.Column="1" Foreground="{TemplateBinding Foreground}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Text="{TemplateBinding Text}" TextTrimming="Clip" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"></TextBlock>
-              <TextBlock x:Name="KeyboardAcceleratorTextBlock" AutomationProperties.AccessibilityView="Raw" Grid.Column="2" Foreground="{ThemeResource ToggleMenuFlyoutItemKeyboardAcceleratorTextForeground}" HorizontalAlignment="Right" contract6Present:MinWidth="{Binding TemplateSettings.KeyboardAcceleratorTextMinWidth, RelativeSource={RelativeSource Mode=TemplatedParent}}" Margin="24,0,0,0" Style="{ThemeResource CaptionTextBlockStyle}" contract6Present:Text="{TemplateBinding KeyboardAcceleratorTextOverride}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Visibility="Collapsed"></TextBlock>
+              <TextBlock x:Name="TextBlock" Grid.Column="1" Foreground="{TemplateBinding Foreground}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Text="{TemplateBinding Text}" TextTrimming="Clip" Margin="3,0,9,0" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"></TextBlock>
+              <TextBlock x:Name="KeyboardAcceleratorTextBlock" AutomationProperties.AccessibilityView="Raw" contract6Present:Text="{TemplateBinding KeyboardAcceleratorTextOverride}" Grid.Column="2" FontSize="{StaticResource SpDropdownFontSize}" Style="{ThemeResource CaptionTextBlockStyle}" HorizontalAlignment="Right" Margin="24,0,9,0" Foreground="{ThemeResource ToggleMenuFlyoutItemKeyboardAcceleratorTextForeground}" Height="16" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Visibility="Collapsed"></TextBlock>
             </Grid>
           </Grid>
         </ControlTemplate>
